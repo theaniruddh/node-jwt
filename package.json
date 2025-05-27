@@ -1,0 +1,17 @@
+{
+  "name": "@theaniruddh/node-jwt",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node example/example.ts"
+  },
+  "keywords": ["jwt", "authentication", "security", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
+  }
+}
